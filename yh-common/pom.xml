@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.yh</groupId>
+        <artifactId>yh</artifactId>
+        <version>3.6.3</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>yh-common-log</module>
+        <module>yh-common-core</module>
+        <module>yh-common-redis</module>
+        <module>yh-common-seata</module>
+        <module>yh-common-swagger</module>
+        <module>yh-common-security</module>
+        <module>yh-common-datascope</module>
+        <module>yh-common-datasource</module>
+    </modules>
+
+    <artifactId>yh-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        yh-common通用模块
+    </description>
+
+</project>
